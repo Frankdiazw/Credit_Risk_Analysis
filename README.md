@@ -52,3 +52,6 @@ The balanced accuracy score is 99%. The high_risk precision is about 84% with 10
 The balanced accuracy score is 100%. The high_risk precision is about 100% with 100% sensitivity which makes a F1 of 100% . Due to the high number of the low_risk population, its precision is 100% with a sensitivity of 100%.
 
 ## Summary
+For the analysis that was made, several methods were used on the imbalanced data appointing whether the customer was a high risk or a low risk for a loan.  We can see that the over-sampling and under-sampling methods showed very naive results towards the imbalanced data (See Figures 1,2 and 3). Now if we see Figures 4 and 5 which are the Ensemble methods used, we can see a balance between recall and precision (This is what we are looking for an analysis like this one). However, between the two Ensemble methods the Easy Ensemble Classifier showed a more balanced stats.
+
+In conclusion it is recommended to use the **EasyEnsembleClassifier** method towards the credit risk dataset to predict if the customer is a high risk or not.
