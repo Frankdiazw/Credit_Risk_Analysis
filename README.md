@@ -7,10 +7,16 @@ For the challenge, a high quality analysis was done to code and evaluate several
 
 ## Results
 
-### Oversampling
+### Over-sampling methods
 
-- Random Oversampling
-- Synthetic Minority Oversampling Technique (SMOTE)
-- 
+- **Random Oversampling**
+- **Synthetic Minority Oversampling Technique (SMOTE)**
+
+### **Under-sampling methods**
+- **ClusterCentroids**
+
+### Ensemble methods
+- **BalancedRandomForestClassifier**
+- **EasyEnsembleClassifier**
 
 ## Summary
