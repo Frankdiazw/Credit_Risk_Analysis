@@ -1,11 +1,11 @@
-# Credit Risk Analysis
+# Credit Risk Analysis:chart_with_upwards_trend:
 
-## Overview of the analysis
+## Overview of the analysis:mag:
 The purpose of this analysis is to create several machine learning models to predict the credit risks for a company named Fast Lending. The idea of using machine learning models will lead to a more accurate identification of good candidates for loans which will lead to lower default rates. 
 
 For the challenge, a high quality analysis was done to code and evaluate several machine learning models to predict credit risk. Various techniques were implemented to carry on the analysis, such as re sampling and boosting to make most of the models. After the models are implemented, an evaluation was made to verify the efficacy of the algorithms. The results are shown below. 
 
-## Results
+## Results:white_check_mark:
 The results obtained from making and evaluating the methods to predict the credit risk for the imbalanced data will make emphasis on the next points:
 - **The balanced accuracy score**, which is a metric that one can use when evaluating how good a binary classifier is. 
 - **Precision**, which is the ratio of the correctly +ve labeled by our program to all +ve labeled. In other words, we can address if the people who actually are a high risk are a high risk.
@@ -51,7 +51,7 @@ The balanced accuracy score is 99%. The high_risk precision is about 84% with 10
 
 The balanced accuracy score is 100%. The high_risk precision is about 100% with 100% sensitivity which makes a F1 of 100% . Due to the high number of the low_risk population, its precision is 100% with a sensitivity of 100%.
 
-## Summary
+## Summary:page_facing_up:
 For the analysis that was made, several methods were used on the imbalanced data appointing whether the customer was a high risk or a low risk for a loan.  We can see that the over-sampling and under-sampling methods showed very naive results towards the imbalanced data (See Figures 1,2 and 3). Now if we see Figures 4 and 5 which are the Ensemble methods used, we can see a balance between recall and precision (This is what we are looking for an analysis like this one). However, between the two Ensemble methods the Easy Ensemble Classifier showed a more balanced stats.
 
 In conclusion it is recommended to use the **EasyEnsembleClassifier** method towards the credit risk dataset to predict if the customer is a high risk or not.
