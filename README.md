@@ -10,13 +10,25 @@ For the challenge, a high quality analysis was done to code and evaluate several
 ### Over-sampling methods
 
 - **Random Oversampling**
+
+![](https://github.com/Frankdiazw/Credit_Risk_Analysis/blob/main/Resources/Random_Oversampling.png)
+
 - **Synthetic Minority Oversampling Technique (SMOTE)**
+
+![](https://github.com/Frankdiazw/Credit_Risk_Analysis/blob/main/Resources/SMOTE.png)
 
 ### **Under-sampling methods**
 - **ClusterCentroids**
 
+![](https://github.com/Frankdiazw/Credit_Risk_Analysis/blob/main/Resources/ClusterCentroids.png)
+
 ### Ensemble methods
 - **BalancedRandomForestClassifier**
+
+![](https://github.com/Frankdiazw/Credit_Risk_Analysis/blob/main/Resources/Balanced_Random_Forest_Classifier.png)
+
 - **EasyEnsembleClassifier**
+
+![](https://github.com/Frankdiazw/Credit_Risk_Analysis/blob/main/Resources/Easy_Ensemble_AdaBoost_Classifier.png)
 
 ## Summary
