@@ -7,5 +7,10 @@ For the challenge, a high quality analysis was done to code and evaluate several
 
 ## Results
 
+### Oversampling
+
+- Random Oversampling
+- Synthetic Minority Oversampling Technique (SMOTE)
+- 
 
 ## Summary
